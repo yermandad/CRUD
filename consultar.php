@@ -5,7 +5,7 @@ if (isset($_POST['btnConsultar']) && isset($_POST['email_C']) >= 1) {
     include("con_db.php");
     $emailC=$_POST['email_C'];
     $consultar = 'SELECT * FROM datos WHERE email=$emailC';
-    $resultado = mysqli_query($conex, 'SELECT * FROM datos ');
+    $resultado = mysqli_query($conex, $consultar);
     if ($resultado) {
         while ($row = mysqli_fetch_array($resultado)) {
             $nombre = $row['nombre'];
