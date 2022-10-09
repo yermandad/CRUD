@@ -64,7 +64,7 @@
                     ?>
                 </table>
               
-
+            <!--..prueba pr-->
         </div>
         
         </form>
@@ -72,6 +72,7 @@
         <script src="ajax.js"></script>
         
 <?php
+// prueba de pr
 
             }
         }
