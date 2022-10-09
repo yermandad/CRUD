@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(20% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(80% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+input[type='file']{
+	background-color: #fff;
+	color: #000;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+table{
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-top: 28px;
+	margin-bottom: 10px
+	
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+.delete{
+	text-align: center;
+	background-color: #a22;
+	color: #fff
+}
+
+.edit{
+	text-align: center;
+	background-color: #48e;
+	color: #fff
+}
+
+.edit:hover {
+	background-color: #fff; /* Green #4CAF50 */
+	color: #48e;
+  }
+
+.delete:hover{
+	background-color: #fff; /* Green #4CAF50 */
+	color: #a22;
+}
